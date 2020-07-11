@@ -14,6 +14,11 @@ for i in range(MAX_N):
 prime = [0 for i in range(MAX_N + 5)]
 '''
 
+#张泽写法
+'''
+prime = [0] * n
+'''
+
 #线性筛初始化函数
 def init():
     for i in range(2, MAX_N + 1):
